@@ -37,9 +37,11 @@ export class ComputadorasGamer extends LitElement {
             <p>${this.ComputadorasGamerParagraph}</p>
             <ol>
 
-            <li><h3>Computadora Asus Powered By</h3><img class= "movie-poster" src="https://www.asus.com/media/Odin/Websites/mx/ProductLine/20210820015530.jpg"></li>
+            <li><h3>Computadora Asus Powered By</h3>
+            <img class= "movie-poster" src="https://www.asus.com/media/Odin/Websites/mx/ProductLine/20210820015530.jpg"></li>
            
-            <li><h3>Computadora Razer</h3><img class= "movie-poster" src="https://b2c-contenthub.com/wp-content/uploads/2024/01/980x500-1.jpg?quality=50&strip=all"></li>
+            <li><h3>Computadora Razer</h3>
+            <img class= "movie-poster" src="https://b2c-contenthub.com/wp-content/uploads/2024/01/980x500-1.jpg?quality=50&strip=all"></li>
 
              </ol>
 
