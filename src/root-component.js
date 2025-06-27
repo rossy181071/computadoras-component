@@ -3,6 +3,7 @@ import { LitElement, html, css, nothing } from 'lit'
 import { NavbarComponent } from './navbar-component.js'
 import { CincoMejoresComputadoras } from './cinco-mejores-computadoras.js'
 import { ComputadorasGamer } from './computadoras-gamer.js'
+import { ComputadorasDeEscritorio } from './computadoras-de-escritorio.js'
 
 export class RootComponent extends LitElement {
     static get properties() {
@@ -44,6 +45,9 @@ export class RootComponent extends LitElement {
                 pageTemplate = html`<cinco-mejores-computadoras></cinco-mejores-computadoras>`
                 break;
 
+            case 'computadoras-de-escritorio':
+                pageTemplate = html`<computadoras-de-escritorio></computadoras-de-escritorio>`    
+                break;
         }
         return html`
             <div id="root-container">
