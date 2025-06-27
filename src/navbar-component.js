@@ -31,18 +31,18 @@ export class NavbarComponent extends LitElement {
         this.pages = [
             {
                 url: 'cinco-mejores-computadoras',
-                title: 'Cinco Mejores Compus'
+                title: 'Cinco Mejores Computadoras'
             },
             {
-                url: 'computadoras gamer',
+                url: 'computadoras-gamer',
                 title: 'Computadoras Gamer'
             },
             {
-                url: 'computadoras de escritorio',
+                url: 'computadoras-de-escritorio',
                 title: 'Computadoras de Escritorio'
             },
             {
-                url: 'computadoras de mayor uso',
+                url: 'computadoras-de-mayor-uso',
                 title: 'Computadoras de Mayor Uso'
             }
         ]
