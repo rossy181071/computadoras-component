@@ -25,6 +25,10 @@ export class CincoMejoresComputadoras extends LitElement {
             padding: 2vw;
     
         }
+
+        .movie-poster {
+            width: 200px;
+        }        
         `
     }
 
